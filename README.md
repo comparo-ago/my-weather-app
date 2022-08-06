@@ -1,3 +1,10 @@
+# This app let you search the weather in your country and around the world!
+It was made with React and CSS
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
