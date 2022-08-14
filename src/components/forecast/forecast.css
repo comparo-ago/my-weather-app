@@ -24,6 +24,7 @@
     flex: 1 1;
     font-weight: 600;
     margin-left: 15px;
+    background-color: transparent;
 }
 
 .description {
@@ -45,6 +46,8 @@
     flex: 1 1;
     grid-template-columns: auto auto;
     padding: 5px 15px;
+    background-color: rgb(226, 225, 225);
+    border-radius: 15px;
 }
 
 .daily-details-grid-item{
@@ -52,6 +55,7 @@
     height: 30px;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .daily-details-grid-item label:first-child{

@@ -5,6 +5,7 @@ import {
   AccordionItemHeading,
   AccordionItemPanel,
 } from "react-accessible-accordion";
+import BackgroundImage from "../BackgroundImage";
 import "./forecast.css";
 
 const WEEK_DAYS = [
@@ -18,6 +19,7 @@ const WEEK_DAYS = [
 ];
 
 const Forecast = ({ data }) => {
+  <BackgroundImage />
   const dayInAWeek = new Date().getDate();
   const forecastDays = WEEK_DAYS.slice(dayInAWeek, WEEK_DAYS.length).concat(
     WEEK_DAYS.slice(0, dayInAWeek)
