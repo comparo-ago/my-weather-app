@@ -5,6 +5,7 @@ import Forecast from "./components/forecast/forecast";
 import { WEATHER_API_URL, WEATHER_API_KEY } from "./components/api";
 import { useState } from "react";
 import BackgroundImage from "./components/BackgroundImage";
+import Nav from "./components/nav/Nav";
 
 function App() {
   const [currentWeather, setCurrentWeather] = useState(null);
@@ -34,6 +35,7 @@ function App() {
 
   return (
     <div className="container">
+    <Nav />
       <BackgroundImage />
         <div className="content">
           <Search onSeartChange={handleOnSearchChange} />
