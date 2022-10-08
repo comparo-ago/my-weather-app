@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-weather-app/static/css/main.0408eaa6.css",
+    "main.js": "/my-weather-app/static/js/main.5dd4690b.js",
+    "static/js/787.7f0bc045.chunk.js": "/my-weather-app/static/js/787.7f0bc045.chunk.js",
+    "static/media/earthLoop.mp4": "/my-weather-app/static/media/earthLoop.9939ab7c52daf9b84895.mp4",
+    "index.html": "/my-weather-app/index.html",
+    "main.0408eaa6.css.map": "/my-weather-app/static/css/main.0408eaa6.css.map",
+    "main.5dd4690b.js.map": "/my-weather-app/static/js/main.5dd4690b.js.map",
+    "787.7f0bc045.chunk.js.map": "/my-weather-app/static/js/787.7f0bc045.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0408eaa6.css",
+    "static/js/main.5dd4690b.js"
+  ]
+}
